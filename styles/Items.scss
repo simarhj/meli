@@ -1,0 +1,84 @@
+.main-cards-list {
+    width: 100%;
+}
+
+.item-card {
+    height: auto;
+    padding: 0px;
+    background-color: #FFFFFF;
+    width: 83%;
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: fit-content(10%) 60% 20%;
+}
+
+.item-card > div {
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+}
+
+.item-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    margin: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.item-info {
+    padding-top: 32px;
+}
+
+.item-info > div {
+    display: block;
+    position: relative;
+}
+
+
+.item-precio p {
+    font-size: 24px;
+    display: inline;
+    margin-right: 16px;
+}
+
+.item-precio img {
+    display: inline;
+}
+
+.item-title {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.item-condition {
+    position: relative;
+    margin: 0px;
+}
+
+.item-address {
+    padding-top: 32px;
+}
+
+.item-address-state {
+    font-size: 12px;
+}
+
+.cats {
+    height: auto;
+    padding: 0px;
+    width: 83%;
+    margin-left: 9%;
+    padding-inline-start: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cats p {
+    display: inline;
+    font-size: 14px;
+}
